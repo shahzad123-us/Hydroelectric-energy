@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Hydroelectric Energy at Home</title>
+		<!-- for CSS file-->
+		<link href="css/style.css" rel="stylesheet">
+		<!--HTML Responsive Web Design-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Open Sans character-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;500italic;800;800italic&display=swap">
+		<!--Font Awesome cnd -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		
+	</head>
+	
+	<body>
+		<!--Header-->
+		<header>
+		<div class="Logo">
+			<img width="150px"src="images/Logo.png">
+		</div>
+		
+		<nav>
+			<div class="nav-links" Id="navlinks">
+			<!--cross icon (time)-->
+			<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+			
+		
+				<ul> 
+				    <li><a href="index.html">Home</a></li><!-- href="link or file position"-->
+					<li><a href="About us.html">About us</a></li>
+					<li><a href="Services.html">Services</a></li>
+					<li><a href="Products.html">products</a></li>
+					<li><a href="Team.html">team</a></li>
+					<li><a href="Contact us.html">Contact us</a></li>
+					<li><a href="Blog.html">Blog</a></li>	
+				</ul>
+			</div>
+		<!-- for bar icon-->
+		 <i class="fa-solid fa-bars" onclick="showMenu()"></i> 
+		</nav>
+		</header>
+		<!--/Header-->
+		<!--Services-->
+			<!--Banner-->
+		<div class="banner-services">
+			<h2>Services</h2>
+		</div>	
+			<!--/Banner-->
+		
+		<div class="container">
+			<div class="row ">
+				<div class="col-6 blog-area" >
+						<div class="blog-item">
+							<img src="images/services1.webp" class="blog-img">
+							<h2>Maintainance</h2>  
+							<p>let's check if every think is ok </p>
+							<a href="#"class="btn-primary"> Read more</a>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="blog-item">
+							<img src="images/services2.jpg" class="blog-img">
+							<h2>Formation</h2>
+							<p>let's find the best way to use us device </p>
+							<a href="#"class="btn-primary"> Read more</a>
+						</div>
+					</div>
+				
+				</div>
+				<div class="row ">
+				<div class="col-6 blog-area" >
+						<div class="blog-item">
+							<img src="images/mechanical design.webp" class="blog-img">
+							<h2>Mechanical design</h2>  
+							<p>let's Design your product with us Amazing Team </p>
+							<a href="#"class="btn-primary"> Read more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<!--/Services-->
+		<!--Footer-->
+		<Footer>
+			<div class="row">
+				<div class="container">
+					<div class="col-3">
+						<h3> Information </h3>
+							<ul class="footer-menu">
+								<li>First menu </li>
+								<li> Second menu </li>
+								<li> Third menu </li>
+								<li> Fouth menu </li>
+								
+							</ul>
+					</div>
+					<div class="col-3">
+						<h3> About us </h3>
+							<ul class="footer-menu">
+								<li>First menu </li>
+								<li> Second menu </li>
+								<li> Third menu </li>
+								<li> Fouth menu </li>
+								
+							</ul>
+					</div>
+					<div class="col-3">
+						<h3> Services </h3>
+							<ul class="footer-menu">
+								<li>First menu </li>
+								<li> Second menu </li>
+								<li> Third menu </li>
+								<li> Fouth menu </li>
+								
+							</ul>
+					</div>
+					<div class="col-3">
+						<h3> Contact us </h3>
+							<ul class="footer-menu">
+								<li>First menu </li>
+								<li> Second menu </li>
+								<li> Third menu </li>
+								<li> Fouth menu </li>
+								
+							</ul>
+					</div>
+				</div>
+			</div>
+			
+		</Footer>
+		<div class="copyright">
+			<p>Coprright &copy; 2021 / outliers.pk  <p>
+		</div>
+		<!--/Footer-->
+<!--Script for the Javascript: when i click on the menu it will slide the navigator-->	
+	<script>
+		var navlinks = document.getElementById("navlinks");
+		
+		function showMenu () {
+			navlinks.style.left ="0";
+		}
+		function hideMenu () {
+			navlinks.style.left ="-200px";
+		}
+	</script>
+	
+	</body>
+
+</html>
